@@ -18,7 +18,6 @@ body {
     height:90%;
 
     text-transform:uppercase;
-    width:90%;
 }
 
 
@@ -41,8 +40,9 @@ h1 {
 
         body {
             background-color: #EAFFFF;
-            margin: 20px;
-            margin-top: 10px;
+            margin: 0;
+            padding: 10px 0;
+            text-align: center;
         }
         #contentContainer {
             width: 1306px;
@@ -52,6 +52,7 @@ h1 {
             background-color: #F2F2F2;
             cursor: pointer;
             padding: 0px;
+            margin: 0 auto;
         }
         #vertexMenu {
             border: 1px black solid;

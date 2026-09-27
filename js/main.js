@@ -44,13 +44,7 @@ context2.font = fontSize + "pt Times New Roman";
 context.font = fontSize + "pt Times New Roman";
 
 /* algorithm attributes */
-var alg = 0;            //0-edmonds karp, 1-capacity scaling.
-document.getElementById("algorithm").onchange = function () {           // sets algorithm type.
-    if (document.getElementById("algorithm").value === "edmondsKarp")
-        alg = 0;
-    else alg = 1;
-    mygraph.clearAlg();
-}
+var alg = 1;            //1-capacity scaling.
 var playing = false;
 var delta;     // for capacity scaling algorithm.
 var Cf;        // how much can we augment?
